@@ -36,12 +36,12 @@ end
 Store.validates_with ApparrelValidator
 
 puts "Gimme a store"
-store_name = gets.chomp
+# store_name = gets.chomp
 
-puts store_name
+# puts store_name
 
-new_store = Store.create(name: store_name)
+# new_store = Store.create(name: store_name)
 
-new_store.errors.messages.each do |k, v|
-  puts "#{k} had error #{v}"
-end
+# new_store.errors.messages.each do |k, v|
+#   puts "#{k} had error #{v}"
+# end
